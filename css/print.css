@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+/*oldal*/
+
+body.custom
+{
+    background-color: white;
+}
+
+main
+{
+    width: 100%;
+    margin: 2.5%;
+}
+
+header, footer, video, aside, figcaption, form
+{
+    display: none;
+}
+
+img.custom
+{
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
+
+p
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.cItem
+{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+/*igazítások*/
+
+figure
+{
+    text-align: center;
+}
+
+h2, h3
+{
+    text-align: left;
+}
+
+p
+{
+    text-align: justify;
+}
+
+/*betűtípusok, -méretek, -színek*/
+
+body.custom
+{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+a.navigation, a.custom , a:visited.custom
+{
+    color: black;
+}
+
+h2.custom
+{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 800;
+    font-family: 'Cinzel', serif;
+}
+
+h3.custom
+{
+    font-size: 1em;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+}
+
+/*Carousel nyomógomb*/
+
+span.carousel-control-prev-icon, span.carousel-control-next-icon
+{
+    display: none;
+}
+
+/*táblázat*/
+
+table.custom
+{
+    width: 80%;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.custom, td.custom, th.custom
+{
+    border: 1px solid black;
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+/*oldal*/
+
+body.custom
+{
+    background-color: #001a33;
+    background-image: url('../media/icons/pjo_logo_background.png'), url('../media/icons/pjo_logo_background.png');
+    background-repeat: repeat-y, repeat-y;
+    background-position: top left, top right;
+    background-size: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+header, main, footer
+{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+header, footer
+{
+    background-color: #036980;
+}
+
+main
+{
+    background-color: #214552;
+}
+
+section
+{
+    margin: 0 5% 0 5%;
+}
+
+header
+{
+    border-radius: 5px 5px 0 0;
+}
+
+footer
+{
+    border-radius: 0 0 5px 5px;
+}
+
+img.custom
+{
+    border-radius: 5px;
+    border: 1px solid #cdf7eb;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.custom:hover
+{
+    width: 85%;
+}
+
+video
+{
+    border-radius: 5px;
+    border: 1px solid #cdf7eb;
+    width: 80%;
+    height: auto;
+}
+
+p
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+aside
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+hr.custom
+{
+    width: 90%;
+    border: 1px solid #cdf7eb;
+    margin: auto;
+    opacity: 75%;
+}
+
+div.cItem
+{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+form
+{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+form label.custom
+{
+    font-size: 1.5em;
+}
+
+form input.text, form textarea
+{
+    width: 100%;
+}
+
+form input.button
+{
+    width: auto;
+    margin-right: 2.5%;
+    text-align: center;
+    background-color: #214552;
+    border: 1px solid #cdf7eb;
+    border-radius: 5px;
+    color: #cdf7eb;
+    font-size: 1.5em;
+}
+
+form p
+{
+    padding-left: 0%;
+}
+
+/*igazítások*/
+
+h1.custom, footer p, nav, header div, figure, figcaption, video
+{
+    text-align: center;
+}
+
+h2.custom, h3.custom
+{
+    text-align: left;
+}
+
+p
+{
+    text-align: justify;
+}
+
+/*betűtípusok, -méretek, -színek*/
+
+body.custom
+{
+    color: #cdf7eb;
+    font-family: 'Raleway', sans-serif;
+}
+
+a.navigation
+{
+    color: #cdf7eb;
+}
+
+a:visited.custom
+{
+    color: #9aefd8;
+}
+
+a.custom
+{
+    color: #cdf7eb;
+}
+
+h1.custom
+{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Cinzel', serif;
+}
+
+h2.custom
+{
+    font-size: 2em;
+    text-align: left;
+    font-weight: 800;
+    font-family: 'Cinzel', serif;
+}
+
+h3.custom
+{
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+}
+
+nav.custom
+{
+    font-family: 'Cinzel', serif;
+}
+
+nav.fomenu
+{
+    font-size: 2em;
+}
+
+nav.oldalmenu
+{
+    font-size: 1.5em;
+}
+
+aside, figcaption
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+p
+{
+    font-size: 1.5em;
+}
+
+/*táblázat*/
+
+table.custom
+{
+    width: 80%;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.custom, td.custom, th.custom
+{
+    border: 1px solid #cdf7eb;
+}
+
+table caption.custom
+{
+    color: #cdf7eb;
+    font-size: 1.5em;
+}
+
+th.custom
+{
+    font-size: 1.5em;
+}
+
+td.custom
+{
+    font-size: 1.25em;
+}
+
+/*blokkok elkerülése*/
+
+nav.tartalomra
+{
+    text-align: left;
+    padding-left: 5%;
+}
+
+nav.tartalomra a
+{
+    position:absolute;
+    left:-9999px;
+}
+
+nav.tartalomra a:focus
+{
+    position:static;
+}
+
+/*css-váltó*/
+
+nav.button
+{
+    width: fit-content;
+    margin: 0.5% auto;
+    border: 2.5px solid #cdf7eb;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+a.kontraszt
+{
+    display: none;
+}
+
+a.normal
+{
+    color: #cdf7eb;
+    text-transform: uppercase;
+}
